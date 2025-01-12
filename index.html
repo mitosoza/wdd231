@@ -1,11 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Course Home Page">
+  <meta name="author" content="Miguel Soza">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/design.css">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/courses.js" defer></script>
+  <script src="scripts/create-courses.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/last-modified.js" defer></script>
+
+  <title>Miguel Soza | WDD 231</title>
 </head>
+
 <body>
-    <h1>WDD 231 - Miguel Soza</h1>
+  <header>
+    <picture class="profile-img">
+      <source srcset="images/profile-medium.webp" media="(min-width: 500px)">
+      <img src="images/profile-small.webp" alt="Miguel A. Soza" width="100" height="100">
+    </picture>
+    <span>Miguel A. Soza</span>
+  </header>
+
+  <a id="menu" href="#"></a>
+  <nav>
+    <ul class="navigation">
+      <li><a href="#" class="active">HOME</a></li>
+      <li><a href="#">CHAMBER</a></li>
+      <li><a href="#">GITHUB PROFILE</a></li>
+      <li><a href="https://www.linkedin.com/in/miguelsoza/">LINKEDIN</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="top-sections">
+      <section id="course-section">
+        <div class="section-header">
+          <h2>Course Work</h2>
+        </div>
+        <div class="section-body">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+      <section id="city-section">
+        <div class="section-header">
+          <h2>Molina, Chile</h2>
+        </div>
+        <div class="section-body">
+          <picture id="city-img">
+            <img src="images/city-small.webp" alt="Molina, Chile">
+          </picture>
+          <span id="city-image-name">Siete Tazas</span>
+      </section>
+    </div>
+    <div class="bottom-sections">
+      <section id="certificates-section">
+        <div class="section-header">
+          <h2>Web and Computer Programing Certificate</h2>
+        </div>
+        <div class="section-body">
+          <div id="filter-container"></div>
+          <div id="certificates-container"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p id="website-copyrights">
+      <span id="currentYear"></span>
+      <span id="name">Miguel Soza</span>
+      <span id="country">Molina, Chile</span>
+      <span id="flag-img">
+        <picture>
+          <img src="images/flag-small.webp" alt="Chilean Flag">
+        </picture>
+      </span>
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+
 </body>
 </html>
