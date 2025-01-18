@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Clearlink IT",
+      "address": "387 E 200 N, Bountiful, UT 84010",
+      "phonenumber": "(801) 936-1410",
+      "website":"https://www.clearlinkit.com",
+      "iconfilename":"clearlink.webp",
+      "membershiplevel": 1,
+      "membersince": "15 March 2002"
+    },
+    {
+      "name": "Express Home Services",
+      "address": "2124 Orchard Dr, Bountiful, UT 84010",
+      "phonenumber": "(801) 294-2757",
+      "website":"https://callexpress.com",
+      "iconfilename":"express.webp",
+      "membershiplevel": 2,
+      "membersince": "22 July 2001"
+    },
+    {
+      "name": "Game Haven",
+      "address": "273 W 500 S, Bountiful, UT 84010",
+      "phonenumber": "(801) 298-3261",
+      "website":"https://yourgamehaven.com",
+      "iconfilename":"game.webp",
+      "membershiplevel": 2,
+      "membersince": "10 October 2003"
+    },
+    {
+      "name": "Envision Electric",
+      "address": "409 S 500 W, Bountiful, UT 84010",
+      "phonenumber": "(801) 509-1314",
+      "website":"https://www.envisionelectric.proenvision",
+      "iconfilename":"envision.webp",
+      "membershiplevel": 3,
+      "membersince": "5 January 2005"
+    },
+    {
+      "name": "Gordon's CopyPrintgordons",
+      "address": "29 W 400 N, Bountiful, UT 84010",
+      "phonenumber": "(801) 298-5071",
+      "website":"https://gordonscopyprint.com",
+      "iconfilename":"gordons.webp",
+      "membershiplevel": 2,
+      "membersince": "18 August 2006"
+    },
+    {
+      "name": "Murphy's Guitars",
+      "address": "133 N Main St, Bountiful, UT 84010",
+      "phonenumber": "(801) 298-4777",
+      "website":"https://murphysguitars.com",
+      "iconfilename":"murphys.webp",
+      "membershiplevel": 1,
+      "membersince": "30 November 2007"
+    },
+    {
+      "name": "D & K Motorcycle Center",
+      "address": "177 W 300 S, Bountiful, UT 84010",
+      "phonenumber": "(801) 864-3419",
+      "website":"https://www.dkmotorcyclecenter.com",
+      "iconfilename":"motorcycle.webp",
+      "membershiplevel": 1,
+      "membersince": "12 April 2008"
+    }
+  ]
+}
