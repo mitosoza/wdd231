@@ -1,5 +1,5 @@
 const membersFile = './data/members.json';
-const cards = document.querySelector('#cards');
+const cards = document.querySelector('#directory-cards');
 
 async function getMembersData() {
     const response = await fetch(membersFile);
@@ -12,7 +12,7 @@ async function getMembersData() {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
       let iconFilename = document.createElement('img');
-      let name = document.createElement('h2');
+      let name = document.createElement('h3');
       let address = document.createElement('p');
       let phoneNumber = document.createElement('p');
       let website = document.createElement('a');
