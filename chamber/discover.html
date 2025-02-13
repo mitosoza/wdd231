@@ -3,21 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bountiful Chamber Directory">
+    <meta name="description" content="Bountiful Chamber Discover">
     <meta name="author" content="Miguel Soza">
-    <title>Bountiful Chamber Directory</title>
+    <title>Bountiful Chamber Discover</title>
 
-    <meta property="og:title" content="Chamber Directory" />
+    <meta property="og:title" content="Chamber Discover" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://cf.bstatic.com/xdata/images/hotel/max1024x768/165675038.jpg?k=50081afc05289559ce92dd32f300639b01401f43c22f5dacfd62a79b22497f74&o=&hp=1" />
-    <meta property="og:url" content="https://mitosoza.github.io/wdd231/chamber/directory.html" />
+    <meta property="og:url" content="https://mitosoza.github.io/wdd231/chamber/discover.html" />
 
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="chamber-favicon.ico">
 
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/fetch-members.js" defer></script>
-    <script src="scripts/grid-list-toggle.js" defer></script>
+    <script src="scripts/get-places.js" type="module"></script>
     <script src="scripts/last-modified.js" defer></script>
     <script src="scripts/last-visit.js" defer></script>
   </head>
@@ -39,9 +38,9 @@
           <nav>
           <ul class="navigation">
               <li><a href="index.html">Home</a></li>
-              <li><a href="#" class="active">Directory</a></li>
+              <li><a href="directory.html">Directory</a></li>
               <li><a href="join.html">Join</a></li>
-              <li><a href="discover.html">Discover</a></li>
+              <li><a href="#" class="active">Discover</a></li>
             </ul>
           </nav>
         </div>
@@ -50,11 +49,7 @@
 
     <main>
       <div id="main-content">
-        <div class="directory-menu">
-          <button id="grid">Grid</button>
-          <button id="list">List</button>
-        </div>
-        <article id="directory-cards" class="grid"></article>
+        <div id ="allplaces"></div>
       </div>
     </main>
 

@@ -548,6 +548,99 @@ form {
 	margin-right: 1rem;
 }
 
+/* Discover ***************/
+#allplaces div {
+	margin: 1rem 8px;
+	border: 1px solid #999;
+	background-color: #eee;
+	border-radius: 8px;
+
+	display: grid;
+	grid-template-areas:
+		"name"
+		"photograph"
+		"description"
+		"location"
+		"button";
+}
+
+#allplaces div h2 {
+	margin: 0.5rem;
+	grid-area: name;
+}
+
+#allplaces div figure {
+	grid-area: photograph;
+}
+
+#allplaces div figure img {
+	width: 300px;
+	height: auto;
+	&hover {
+		filter: saturate(50%);
+	}
+}
+
+#allplaces div img:hover {
+	opacity: 1;
+}
+
+#allplaces div p {
+	margin: 0.5rem;
+	grid-area: description;
+}
+
+#allplaces div address {
+	margin: 1.5rem 0.5rem;
+	grid-area: location;
+}
+
+#allplaces div button {
+  width: 250px;
+  margin: 1rem auto;
+  grid-area: button;
+  display: block;
+}
+
+/* Media query for medium screens */
+@media only screen and (min-width: 38rem) {
+	#allplaces div {
+		font-size: 1rem;
+		grid-template-areas:
+			"photograph name"
+			"photograph description"
+			"photograph location"
+			"photograph button";
+	}
+	#allplaces div img:hover {
+		opacity: .5;
+	}
+	#allplaces div button {
+		width: 150px;
+	}
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 64rem) {
+	#allplaces {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+  }
+	#allplaces div {
+		font-size: 0.75rem;
+	}
+	#allplaces div figure {
+		margin: 0.5rem;
+	}
+	#allplaces div figure img {
+		width: 200px;
+		height: auto;
+		&hover {
+			filter: saturate(50%);
+		}
+	}
+}
+
 /* Footer ***************/
 footer {
   background-color: #f8f8f8;
