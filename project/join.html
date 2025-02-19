@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join the Real Soccer Hub">
+  <meta name="author" content="Miguel Soza">
+  <meta property="og:title" content="Real Soccer Hub Join" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://mitosoza.github.io/wdd231/project/images/meta.webp" />
+  <meta property="og:url" content="https://mitosoza.github.io/wdd231/project/join.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" href="project-favicon.ico">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/timestamp.js" defer></script>
+  <script src="scripts/last-modified.js" defer></script>
+  <script src="scripts/last-visit.js" defer></script>
+
+  <title>Real Soccer Hub | Join</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/black-logo.webp" alt="Real Soccer Hub Logo">
+    </div>
+    <a id="navigation-menu" href="#"></a>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="venues.html">VENUES</a></li>
+        <li><a href="#" class="active">JOIN</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="join.html" class="join-now-button">JOIN NOW</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="join-content">
+      <h1>Membership Application Form</h1>
+      <div class="membership-application">
+        <div id="membership-form">
+          <form method="get" action="thankyou.html">
+            <label>
+              First Name:
+              <input type="text" name="first-name" title="First Name" autocomplete="given-name" required>
+            </label>
+            <label>
+              Last Name:
+              <input type="text" name="last-name" title="Last Name" autocomplete="family-name" required>
+            </label>
+            <label>
+              Team Name:
+              <input type="text" name="team-name" title="Team Name" autocomplete="organization" required>
+            </label>
+            <label>
+              Email:
+              <input type="email" name="email" title="Email" autocomplete="email" placeholder="example@example.com" required>
+            </label>
+            <label>
+              Cell Phone:
+              <input type="tel" name="cell-phone" title="Cell Phone Number" autocomplete="tel" required>
+            </label>
+            <label>
+              Membership Level:
+              <select name="membership-level" title="Membership Level" required>
+                <option value="" disabled selected>Select a membership level</option>
+                <option value="NP">Non Profit Membership</option>
+                <option value="Bronze">Bronze Membership</option>
+                <option value="Silver">Silver Membership</option>
+                <option value="Gold">Gold Membership</option>
+              </select>
+            </label>
+            <label>
+              Team Description:
+              <textarea name="team-description" title="Team Description"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <button type="submit">JOIN REAL SOCCER HUB</button>
+          </form>
+        </div>
+        <div id="membership-levels">
+          <h2>Membership Levels</h2>
+          <div class="card">
+            <h3>Non Profit Membership Level</h3>
+            <ul>
+              <li>Trainings</li>
+              <li>Price: Free</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Bronze Membership Level</h3>
+            <ul>
+              <li>Trainings</li>
+              <li>10% Events Discount</li>
+              <li>Price: $80/year</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Silver Membership Level</h3>
+            <ul>
+              <li>Trainings</li>
+              <li>20% Events Discount</li>
+              <li>Spotlight Position</li>
+              <li>Price: $100/year</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Gold Membership Level</h3>
+            <ul>
+              <li>Advertisements</li>
+              <li>Trainings</li>
+              <li>30% Events Discount</li>
+              <li>Spotlight Position</li>
+              <li>Price: $120/year</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-info">
+      <h3>Real Soccer Hub</h3>
+      <p>info@realsoccerhub.com</p>
+      <p>(800) 555-5555</p>
+      <p>&copy;2025 Real Soccer Hub</p>
+      <p id="lastModified"></p>
+      <p id="lastVisit"></p>
+    </div>
+    <div class="footer-social">
+      <h3>Social</h3>
+      <ul>
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i>Facebook</a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i>Twitter</a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i>Youtube</a></li>
+      </ul>
+    </div>
+    <div class="footer-resources">
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="venues.html">Venues</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,102 @@
+{
+  "pastGames": [
+    {
+      "teamAName": "Orlando City",
+      "teamBName": "Atlanta United",
+      "location": "Utah Indoor Soccer",
+      "date": "2024-09-05",
+      "teamAScore": 1,
+      "teamBScore": 3
+    },
+    {
+      "teamAName": "San Jose Earthquakes",
+      "teamBName": "Colorado Rapids",
+      "location": "Indoor Soccer Arena",
+      "date": "2024-10-20",
+      "teamAScore": 2,
+      "teamBScore": 2
+    },
+    {
+      "teamAName": "Philadelphia Union",
+      "teamBName": "New England Revolution",
+      "location": "Legacy Center",
+      "date": "2024-11-15",
+      "teamAScore": 0,
+      "teamBScore": 1
+    },
+    {
+      "teamAName": "Minnesota United",
+      "teamBName": "Sporting Kansas City",
+      "location": "Salt Lake City Sports Complex",
+      "date": "2024-12-10",
+      "teamAScore": 1,
+      "teamBScore": 4
+    },
+    {
+      "teamAName": "Inter Miami",
+      "teamBName": "Nashville SC",
+      "location": "Sport City",
+      "date": "2024-12-20",
+      "teamAScore": 2,
+      "teamBScore": 2
+    },
+    {
+      "teamAName": "Vancouver Whitecaps",
+      "teamBName": "LAFC",
+      "location": "Futsal Factory",
+      "date": "2025-01-05",
+      "teamAScore": 3,
+      "teamBScore": 2
+    }
+  ],
+  "upcomingGames": [
+    {
+      "teamAName": "Real Salt Lake",
+      "teamBName": "LA Galaxy",
+      "location": "America First Field",
+      "date": "2025-03-15",
+      "teamAScore": 0,
+      "teamBScore": 0
+    },
+    {
+      "teamAName": "Seattle Sounders",
+      "teamBName": "Portland Timbers",
+      "location": "Rice-Eccles Stadium",
+      "date": "2025-04-10",
+      "teamAScore": 0,
+      "teamBScore": 0
+    },
+    {
+      "teamAName": "New York Red Bulls",
+      "teamBName": "DC United",
+      "location": "Zions Bank Stadium",
+      "date": "2025-05-05",
+      "teamAScore": 0,
+      "teamBScore": 0
+    },
+    {
+      "teamAName": "Chicago Fire",
+      "teamBName": "Columbus Crew",
+      "location": "Weber State University",
+      "date": "2025-06-20",
+      "teamAScore": 0,
+      "teamBScore": 0
+    },
+    {
+      "teamAName": "Toronto FC",
+      "teamBName": "Montreal Impact",
+      "location": "Salt Lake Community College",
+      "date": "2025-07-15",
+      "teamAScore": 0,
+      "teamBScore": 0
+    },
+    {
+      "teamAName": "Houston Dynamo",
+      "teamBName": "FC Dallas",
+      "location": "The Sports Mall",
+      "date": "2025-08-10",
+      "teamAScore": 0,
+      "teamBScore": 0
+    }
+  ]
+}
